@@ -1,0 +1,1081 @@
+.slider{
+    width: 1920px;
+    overflow: hidden;
+    height: 600px;
+    position: relative;
+    padding-top: 40px;
+    height: 530px;
+}
+
+.slider__line{
+    display: flex;
+    transition: all 1s;
+}
+
+
+.slider__btn-prev:hover, .slider__btn-next:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.541);
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: Arial, Verdana, sans-serif;
+    padding-top: 80px;
+    background-color: rgb(0, 0, 0);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    z-index: 9999;
+    transition: box-shadow .3s;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    height: 120px;
+    padding-bottom: 10px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 35px;
+    transition:  padding-top .3s,  padding-bottom .3s;
+}
+
+.header_mini {
+    box-shadow: 0px 0px 30px -11px rgba(0,0,0,0.8);
+}
+
+.header_mini .header__container {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.logo {
+    margin-bottom: 40px;
+}
+
+.logo__img {
+    position: absolute;
+    display: inline-block;
+    height: 180px;
+    margin-left: 45px;
+    padding-bottom: 30px;
+}
+
+.logo__img2 {
+    position: absolute;
+    display: inline-block;
+    height: 90px;
+    bottom: 10;
+}
+
+.menu__list {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 16px;
+    margin-left: 150px;
+}
+
+.menu__item:not(:last-child) {
+}
+
+.menu__link {
+    font-size: 16px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.cats{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+
+.menu__link:hover {
+    color: rgb(133, 133, 133);
+    
+}
+
+.logopipe {
+    position: absolute;
+    height: 185px;
+    margin-top: 60px;
+}
+
+.menu__item {
+    margin-top: 20px;
+}
+
+
+.block-text-pipe-down-1 {
+    width: 740px;
+    color: white;
+    position: absolute;
+    display: inline-block;
+    margin-left: 400px;
+    position: absolute;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 50px;
+}
+
+.block-text-pipe-down-2 {
+    width: 350px;
+    color: white;
+    position: relative;
+    display: inline-block;
+    position: absolute;
+    margin-left: 1160px;
+    margin-top: 50px;
+    line-height: 1px;
+}
+
+.h1characters {
+    font-size: 16px;
+}
+
+.normaltext {
+    position: relative;
+    display: inline-block;
+}
+
+.jurnuytext {
+    position: relative;
+    display: inline-block;
+    font-weight: 700;
+}
+
+.text-1-down {
+    font-weight: 100;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+.pipe-text-3 {
+    font-size: 16px;
+    margin-left: 20px;
+    margin-bottom: 80px;
+}
+
+.button-buy-pipe200 {
+    background-color: white;
+    color: black;
+    width: 220px;
+    height: 70px;
+    padding-top: 22px;
+    text-align: center;
+    font-size: 22px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 30px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 100px;
+}
+
+.button-buy-pipe200:hover {
+    background-color: rgb(158, 158, 158);
+    transition: 0.2s;
+}
+
+.pipe200block2 {
+    margin-left: 100px;
+    background-color: rgb(255, 255, 255);
+    width: 220px;
+    height: 70px;
+    padding-top: 22px;
+    text-align: center;
+    font-size: 22px;
+    display: inline-block;
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 700px;
+}
+
+.pipe200block2:hover {
+    background-color: rgb(158, 158, 158);
+    transition: 0.2s;
+}
+
+.povelitdownload {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 600px;
+    position: relative;
+    display: inline-block
+}
+
+.freedownload {
+    position: relative;
+    display: inline-block;
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+}
+
+.footer-img {
+    margin-top: 200px;
+}
+
+.img-footer {
+    width: 1920px;
+    height: 350px;
+}
+
+.logomashbmx {
+    position: absolute;
+    height: 70px;
+    margin-left: 420px;
+    margin-top: 50px;
+}
+
+.letsgetsocial {
+    color: white;
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 50px;
+    font-size: 18px;
+    width: 700px;
+}
+
+.fonmaps {
+    background-color: rgb(41, 41, 41);
+}
+
+.fonmods {
+    background-color: rgb(41, 41, 41);
+}
+
+.imgmap {
+    width: 700px;
+    height: 300px;
+}
+
+.blocks-download-pipe {
+    margin-left: 590px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.textnamemap {
+    margin-left: 195px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.textnamemap2 {
+    margin-left: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.namemaps199 {
+    color: white;
+    margin-top: 100px;
+    margin-left: 800px;
+}
+
+.textnamemap3 {
+    margin-left: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.textnamemap4 {
+    margin-left: 260px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.textnamemap5 {
+    margin-left: 240px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.textnamemap6 {
+    margin-left: 295px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.textnamemap7 {
+    margin-left: 265px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.textnamemap8 {
+    margin-left: 240px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.textnamemap9 {
+    margin-left: 240px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.textnamemap10 {
+    margin-left: 310px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.textnamemap11 {
+    margin-left: 260px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.textnamemap12 {
+    margin-left: 220px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.textnamemap13 {
+    margin-left: 210px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.textnamemap14 {
+    margin-left: 270px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.downloadmap {
+    margin-left: 295px;
+    background-color: white;
+    width: 250px;
+    height: 100px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.instrucktion {
+    color: white;
+    margin-left: 100px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.redtextinstrucktion {
+    color: red;
+    display: inline-block;
+    margin-left: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.textinstrucktion {
+    display: inline-block
+}
+
+
+.downloadmap:hover {
+    background-color: rgb(173, 173, 173);
+    transition: 0.2s;
+}
+
+@media only screen and (max-width: 1920px) {
+        
+    .menu__link {
+        font-size: 18px;
+        color: white;
+        margin-top: 10px;
+        padding-left: 85px;
+    }
+
+    .logomashbmx {
+        position: absolute;
+        height: 80px;
+        margin-left: 420px;
+        margin-top: 50px;
+    }
+
+    .letsgetsocial {
+        color: white;
+        position: absolute;
+        margin-left: 800px;
+        margin-top: 50px;
+        font-size: 20px;
+        width: 800px;
+        line-height: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .slider{
+        width: 1024px;
+        overflow: hidden;
+        height: 600px;
+        position: relative;
+        padding-top: 40px;
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+
+    .slider{
+        width: 1440px;
+        overflow: hidden;
+        height: 600px;
+        position: relative;
+        padding-top: 40px;
+        height: 400px;
+    }
+
+    .blocks-download-pipe {
+        margin-left: 300px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+
+    .namemaps199 {
+        color: white;
+        margin-top: 100px;
+        margin-left: 600px;
+    }
+
+    .block-text-pipe-down-1 {
+        width: 740px;
+        color: white;
+        position: absolute;
+        display: inline-block;
+        margin-left: 400px;
+        position: absolute;
+        font-size: 18px;
+        line-height: 25px;
+        margin-top: 50px;
+    }
+    
+    .block-text-pipe-down-2 {
+        width: 350px;
+        color: white;
+        position: relative;
+        display: inline-block;
+        position: absolute;
+        margin-left: 1260px;
+        margin-top: 50px;
+        line-height: 1px;
+    }
+
+    .menu__link {
+        font-size: 18px;
+        color: white;
+        margin-top: 10px;
+        padding-left: 65px;
+    }
+
+    .logomashbmx {
+        position: absolute;
+        height: 80px;
+        margin-top: 50px;
+    }
+
+    .letsgetsocial {
+        color: white;
+        position: absolute;
+        margin-left: 800px;
+        margin-top: 50px;
+        font-size: 22px;
+        width: 600px;
+        line-height: 30px;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+
+    .menu__link {
+        font-size: 16px;
+        color: white;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+
+    .blocks-download-pipe {
+        margin-left: 590px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .blocks-download-pipe {
+        margin-left: 340px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .namemaps199 {
+        color: white;
+        margin-top: 100px;
+        margin-left: 550px;
+    }
+
+    .slider{
+        width: 1366px;
+        overflow: hidden;
+        height: 600px;
+        position: relative;
+        padding-top: 40px;
+        height: 395px;
+    }
+
+
+    .pipe200block2 {
+        margin-left: 100px;
+        background-color: rgb(255, 255, 255);
+        width: 220px;
+        height: 70px;
+        padding-top: 22px;
+        text-align: center;
+        font-size: 22px;
+        display: inline-block;
+        position: absolute;
+        margin-top: 2px;
+        margin-left: 400px;
+    }
+
+    .block-text-pipe-down-2 {
+        width: 350px;
+        color: white;
+        position: relative;
+        display: inline-block;
+        position: absolute;
+        margin-left: 900px;
+        margin-top: 50px;
+        line-height: 1px;
+    }
+
+    .textpipe1 {
+        color: white;
+        width: 750px;
+        height: 200px;
+        margin-left: 200px;
+        font-size: 18px;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: 50px;
+        line-height: 27px;
+        margin-bottom: 50px;
+    }
+
+    .textpipedown {
+        height: 85px;
+        width: 100%;
+    }
+
+    .block-text-pipe-down-1 {
+        width: 740px;
+        color: white;
+        position: absolute;
+        display: inline-block;
+        margin-left: 100px;
+        position: absolute;
+        font-size: 18px;
+        line-height: 25px;
+        margin-top: 50px;
+    }
+
+    .povelitdownload {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        margin-top: 500px;
+        margin-left: 350px;
+        position: relative;
+        display: inline-block
+    }
+    
+    .freedownload {
+        position: relative;
+        display: inline-block;
+        color: rgb(255, 0, 0);
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 1366px) {
+    .logomashbmx {
+        position: absolute;
+        height: 70px;
+        margin-left: 200px;
+        margin-top: 50px;
+    }
+
+    
+    
+    .letsgetsocial {
+        color: white;
+        position: absolute;
+        margin-left: 800px;
+        margin-top: 50px;
+        font-size: 20px;
+        width: 700px;
+    }
+}
+
+@media only screen and (max-width: 1536px) {
+    .block-text-pipe-down-1 {
+        width: 550px;
+        color: white;
+        position: absolute;
+        display: inline-block;
+        margin-left: 150px;
+        position: absolute;
+        font-size: 18px;
+        line-height: 25px;
+        margin-top: 50px;
+    }
+
+    .blocks-download-pipe {
+        margin-left: 430px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+
+    .namemaps199 {
+        color: white;
+        margin-top: 100px;
+        margin-left: 620px;
+    }
+    
+    .pipe200block2 {
+        margin-left: 100px;
+        background-color: rgb(255, 255, 255);
+        width: 220px;
+        height: 70px;
+        padding-top: 22px;
+        text-align: center;
+        font-size: 22px;
+        display: inline-block;
+        position: absolute;
+        margin-top: 2px;
+        margin-left: 400px;
+    }
+
+    .logomashbmx {
+        position: absolute;
+        height: 80px;
+        margin-left: 350px;
+        margin-top: 50px;
+    }
+
+    .letsgetsocial {
+        color: white;
+        position: absolute;
+        margin-left: 600px;
+        margin-top: 50px;
+        font-size: 18px;
+        width: 800px;
+        line-height: 30px;
+    }
+
+
+    .menu__list {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        margin-top: 16px;
+        margin-left: 160px;
+    }
+
+    .logo__img {
+        position: absolute;
+        display: inline-block;
+        height: 180px;
+        margin-left: 15px;
+        padding-bottom: 30px;
+    }
+
+    .menu__link {
+        font-size: 14px;
+        color: white;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+
+    .povelitdownload {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        margin-top: 570px;
+        margin-left: 350px;
+        position: relative;
+        display: inline-block
+    }
+
+    .pipe200block2 {
+        margin-left: 100px;
+        background-color: rgb(255, 255, 255);
+        width: 220px;
+        height: 70px;
+        padding-top: 22px;
+        text-align: center;
+        font-size: 22px;
+        display: inline-block;
+        position: absolute;
+        margin-top: 7px;
+        margin-left: 700px;
+    }
+
+    .block-text-pipe-down-2 {
+        width: 350px;
+        color: white;
+        position: relative;
+        display: inline-block;
+        position: absolute;
+        margin-left: 750px;
+        margin-top: 50px;
+        line-height: 1px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .slider{
+        width: 1280px;
+        overflow: hidden;
+        height: 350px;
+        position: relative;
+        padding-top: 40px;
+    }
+
+    .blocks-download-pipe {
+        margin-left: 320px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+
+    .namemaps199 {
+        color: white;
+        margin-top: 100px;
+        margin-left: 530px;
+    }
+
+    .logomashbmx {
+        position: absolute;
+        height: 80px;
+        margin-top: 50px;
+        margin-left: 150px;
+    }
+
+    .letsgetsocial {
+        color: white;
+        position: absolute;
+        margin-left: 400px;
+        margin-top: 50px;
+        font-size: 18px;
+        width: 800px;
+        line-height: 30px;
+    }
+
+    .logopipe {
+        position: absolute;
+        height: 165px;
+        margin-top: 60px;
+        margin-left: 50px;
+    }
+
+    .menu__link {
+        font-size: 16px;
+        color: white;
+        margin-top: 10px;
+        padding-left: 60px;
+    }
+
+    .textpipe1 {
+        color: white;
+        width: 750px;
+        height: 200px;
+        margin-left: 200px;
+        font-size: 18px;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: 50px;
+        line-height: 27px;
+        margin-bottom: 50px;
+    }
+
+    .textpipedown {
+        height: 85px;
+        width: 100%;
+    }
+
+    
+}
+
+@media only screen and (max-width: 1600px) {
+    .slider{
+        width: 1600px;
+        overflow: hidden;
+        height: 350px;
+        position: relative;
+        padding-top: 40px;
+    }
+
+    .blocks-download-pipe {
+        margin-left: 450px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .namemaps199 {
+        color: white;
+        margin-top: 100px;
+        margin-left: 660px;
+    }
+
+    .logomashbmx {
+        position: absolute;
+        height: 100px;
+        margin-top: 50px;
+        margin-left: 250px;
+    }
+
+    .letsgetsocial {
+        color: white;
+        position: absolute;
+        margin-left: 600px;
+        margin-top: 50px;
+        font-size: 20px;
+        width: 800px;
+        line-height: 30px;
+    }
+
+    .logopipe {
+        position: absolute;
+        height: 165px;
+        margin-top: 60px;
+        margin-left: 100px;
+    }
+
+    .menu__link {
+        font-size: 18px;
+        color: white;
+        margin-top: 10px;
+        padding-left: 90px;
+    }
+
+    .textpipe1 {
+        color: white;
+        width: 750px;
+        height: 200px;
+        margin-left: 200px;
+        font-size: 18px;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: 50px;
+        line-height: 27px;
+        margin-bottom: 50px;
+    }
+
+    .textpipedown {
+        height: 90px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .slider{
+        width: 1280px;
+        overflow: hidden;
+        height: 350px;
+        position: relative;
+        padding-top: 40px;
+    }
+
+    .textpipe1 {
+        color: white;
+        width: 750px;
+        height: 200px;
+        margin-left: 200px;
+        font-size: 18px;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: 50px;
+        line-height: 27px;
+        margin-bottom: 50px;
+    }
+
+    .textpipedown {
+        height: 80px;
+        width: 100%;
+    }
+
+    .menu__link {
+        font-size: 16px;
+        color: white;
+        margin-top: 10px;
+        padding-left: 90px;
+    }
+
+    .textpipe1 {
+        color: white;
+        width: 650px;
+        height: 200px;
+        margin-left: 200px;
+        font-size: 18px;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: 50px;
+        line-height: 27px;
+        margin-bottom: 50px;
+    }
+
+        .logomashbmx {
+        position: absolute;
+        height: 80px;
+        margin-top: 50px;
+        margin-left: 150px;
+    }
+
+    .letsgetsocial {
+        color: white;
+        position: absolute;
+        margin-left: 450px;
+        margin-top: 50px;
+        font-size: 18px;
+        width: 750px;
+        line-height: 30px;
+    }
+
+    .pipe200block2 {
+        margin-left: 100px;
+        background-color: rgb(255, 255, 255);
+        width: 220px;
+        height: 70px;
+        padding-top: 22px;
+        text-align: center;
+        font-size: 22px;
+        display: inline-block;
+        position: absolute;
+        margin-top: 7px;
+        margin-left: 500px;
+    }
+}
+
+@media only screen and (max-height: 1024px) {
+    .menu__link {
+        font-size: 18px;
+        color: white;
+        margin-top: 10px;
+        padding-left: 90px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .menu__link {
+        font-size: 18px;
+        color: white;
+        margin-top: 10px;
+        padding-left: 90px;
+    }
+
+    .slider{
+        width: 1024px;
+        overflow: hidden;
+        height: 350px;
+        position: relative;
+        padding-top: 40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
