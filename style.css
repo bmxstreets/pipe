@@ -241,7 +241,7 @@ body {
     font-size: 20px;
     position: absolute;
     margin-top: 500px;
-    margin-left: 600px;
+    margin-left: 550px;
     position: relative;
     display: inline-block
 }
@@ -306,8 +306,8 @@ body {
     margin-bottom: 30px;
 }
 
-.textnamemap {
-    margin-left: 195px;
+.textnamemap1 {
+    margin-left: 290px;
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
@@ -316,7 +316,7 @@ body {
 }
 
 .textnamemap2 {
-    margin-left: 250px;
+    margin-left: 190px;
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
@@ -331,7 +331,7 @@ body {
 }
 
 .textnamemap3 {
-    margin-left: 300px;
+    margin-left: 235px;
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
@@ -340,7 +340,7 @@ body {
 }
 
 .textnamemap4 {
-    margin-left: 260px;
+    margin-left: 282px;
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
@@ -358,7 +358,7 @@ body {
 }
 
 .textnamemap6 {
-    margin-left: 295px;
+    margin-left: 225px;
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
@@ -367,7 +367,7 @@ body {
 }
 
 .textnamemap7 {
-    margin-left: 265px;
+    margin-left: 280px;
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
@@ -385,7 +385,7 @@ body {
 }
 
 .textnamemap9 {
-    margin-left: 240px;
+    margin-left: 215px;
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
@@ -394,7 +394,7 @@ body {
 }
 
 .textnamemap10 {
-    margin-left: 310px;
+    margin-left: 220px;
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
@@ -403,7 +403,7 @@ body {
 }
 
 .textnamemap11 {
-    margin-left: 260px;
+    margin-left: 280px;
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
@@ -412,7 +412,7 @@ body {
 }
 
 .textnamemap12 {
-    margin-left: 220px;
+    margin-left: 240px;
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
@@ -439,7 +439,7 @@ body {
 }
 
 .downloadmap {
-    margin-left: 295px;
+    margin-left: 275px;
     background-color: white;
     width: 250px;
     height: 100px;
@@ -1078,13 +1078,4 @@ body {
         padding-top: 40px;
     }
 }
-
-
-
-
-
-
-
-
-
 
